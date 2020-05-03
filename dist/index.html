@@ -1,0 +1,7 @@
+<!doctype html><html lang="en" dir="ltr"><head><meta charset="utf-8"><title>Test</title><link href="main.css" rel="stylesheet"></head><body><header><div class="">NLP Analyser</div><div class="">Powered by Aylien</div></header><main><section><form class="" onsubmit="return handleSubmit(event)"><input id="name" name="input" value="" placeholder="ENter URL"> <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return handleSubmit(event)"></form><section><section><strong>Article Analysis</strong><div id="results"></div><span><h3>Polarity : <span id="polarity"></span></h3></span><span><h3>Subjectivity : <span id="subjectivity"></span></h3></span><span><h3>Text : <span id="text"></span></h3></span></section></section></section></main><footer><p>Copyright Rishabh Keshan</p></footer><script>// Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js');
+                });
+            }</script><script src="main.js"></script></body></html>
