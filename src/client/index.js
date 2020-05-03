@@ -1,4 +1,4 @@
-import {checkForValidity} from './js/urlValid.js'
+import {checkForValidity} from './js/UrlValid.js'
 import {handleSubmit} from './js/formHandler.js'
 import "./styles/resets.scss"
 import "./styles/header.scss"
